@@ -882,4 +882,27 @@ function initializeAnnouncement() {
 }
 
 // Initialize the application
-document.addEventListener('DOMContentLoaded', initializeGrid); 
+document.addEventListener('DOMContentLoaded', initializeGrid);
+
+// Add these functions at the end of app.js
+function showDonationModal() {
+    document.getElementById('donationModal').classList.add('active');
+}
+
+function closeDonationModal() {
+    document.getElementById('donationModal').classList.remove('active');
+}
+
+// Close modal when clicking outside
+document.getElementById('donationModal').addEventListener('click', (e) => {
+    if (e.target.id === 'donationModal') {
+        closeDonationModal();
+    }
+});
+
+// Close modal on escape key
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && document.getElementById('donationModal').classList.contains('active')) {
+        closeDonationModal();
+    }
+}); 

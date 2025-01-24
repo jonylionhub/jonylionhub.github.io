@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <!-- Add this right after the body tag opens -->
+    <!-- announcement -->
     <div class="announcement-banner" id="announcementBanner">
         <div class="announcement-content">
             <i class="fas fa-info-circle"></i>
@@ -37,6 +37,9 @@
             </button>
             <button class="tab-btn" data-category="other">
                 <i class="fas fa-ellipsis-h"></i>
+            </button>
+            <button class="donate-btn" onclick="showDonationModal()" title="Support my work">
+                <i class="fas fa-hand-holding-heart"></i>
             </button>
             <button class="theme-toggle" id="themeToggle" title="Toggle theme">
                 <i class="fas fa-moon"></i>
@@ -83,8 +86,6 @@
             </div>
         </div>
     </template>
-
-    <!-- Add this before the closing body tag -->
     <div id="modalOverlay" class="modal-overlay">
         <div class="modal-content">
             <button class="close-modal">
@@ -121,11 +122,33 @@
                                     </button>
                                 </div>
                             </div>
-                            <!-- Repeat for other directions -->
-                            <!-- Add similar divs for Right 1, Right 2, Top 1, Top 2, Back 1, Back 2, Front 1, Front 2 -->
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Donation Modal -->
+    <div id="donationModal" class="donation-modal">
+        <div class="donation-content">
+            <button class="close-modal" onclick="closeDonationModal()">
+                <i class="fas fa-times"></i>
+            </button>
+            <h2>Form of Donation</h2>
+            <div class="donation-options">
+                <button class="donation-option" onclick="window.open('https://buymeacoffee.com/jonylion', '_blank')">
+                    <i class="fas fa-mug-hot"></i>
+                    <span>Buy Me a Coffee</span>
+                </button>
+                <button class="donation-option" onclick="window.open('https://www.roblox.com/catalog/11260271193/Js-Hub-Small-Donation', '_blank')">
+                    <span class="amount">R$100</span>
+                    <span>Small Donation</span>
+                </button>
+                <button class="donation-option" onclick="window.open('https://www.roblox.com/catalog/13714547271/Js-Hub-Medium-Donation', '_blank')">
+                    <span class="amount">R$250</span>
+                    <span>Medium Donation</span>
+                </button>
             </div>
         </div>
     </div>

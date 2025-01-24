@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J's Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Add this right after the body tag opens -->
+    <div class="announcement-banner" id="announcementBanner">
+        <div class="announcement-content">
+            <i class="fas fa-info-circle"></i>
+            <p>Welcome to J's Hub! All liveries are free to use. Please credit me if you showcase them.</p>
+        </div>
+        <button class="close-announcement" id="closeAnnouncement">
+            <i class="fas fa-times"></i>
+        </button>
+    </div>
+
+    <div class="container">
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar">
+            <button class="tab-btn active" data-category="all">
+                <i class="fas fa-border-all"></i>
+            </button>
+            <button class="tab-btn" data-category="sedan">
+                <i class="fas fa-car"></i>
+            </button>
+            <button class="tab-btn" data-category="suv">
+                <i class="fas fa-car-side"></i>
+            </button>
+            <button class="tab-btn" data-category="truck">
+                <i class="fas fa-truck-pickup"></i>
+            </button>
+            <button class="tab-btn" data-category="other">
+                <i class="fas fa-ellipsis-h"></i>
+            </button>
+            <button class="theme-toggle" id="themeToggle" title="Toggle theme">
+                <i class="fas fa-moon"></i>
+            </button>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="content">
+            <header>
+                <h1>Jonylion's free liveries</h1>
+                <p class="package-update">Showing <span id="itemupdate">0</span> vehicles</p>
+            </header>
+
+            <!-- Add this after the header section -->
+            <div class="search-container">
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="searchInput" placeholder="Search vehicles...">
+                    <button class="clear-search" id="clearSearch">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Grid Container -->
+            <div class="grid" id="packageGrid">
+                <!-- Packages will be added here dynamically -->
+            </div>
+        </main>
+    </div>
+
+    <!-- Package Template -->
+    <template id="packageTemplate">
+        <div class="package-card">
+            <div class="package-image">
+                <img src="" alt="Car Package">
+            </div>
+            <div class="package-info">
+                <h3 class="package-title"></h3>
+                <p class="package-update"></p>
+                <button class="get-btn">
+                    <i class="fas fa-key"></i> Get
+                </button>
+            </div>
+        </div>
+    </template>
+
+    <!-- Add this before the closing body tag -->
+    <div id="modalOverlay" class="modal-overlay">
+        <div class="modal-content">
+            <button class="close-modal">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-grid">
+                <div class="modal-image">
+                    <img src="" alt="Package Preview">
+                </div>
+                <div class="modal-info">
+                    <div class="modal-header">
+                        <h2 class="modal-title"></h2>
+                        <span class="modal-update"></span>
+                    </div>
+                    <div class="modal-description"></div>
+                    <div class="codes-section">
+                        <h3>Access Codes</h3>
+                        <div class="codes-grid">
+                            <div class="code-item">
+                                <span>Left 1:</span>
+                                <div class="code-container">
+                                    <code class="code-text"></code>
+                                    <button class="copy-btn" title="Copy code">
+                                        <i class="fas fa-copy"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="code-item">
+                                <span>Left 2:</span>
+                                <div class="code-container">
+                                    <code class="code-text"></code>
+                                    <button class="copy-btn" title="Copy code">
+                                        <i class="fas fa-copy"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <!-- Repeat for other directions -->
+                            <!-- Add similar divs for Right 1, Right 2, Top 1, Top 2, Back 1, Back 2, Front 1, Front 2 -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

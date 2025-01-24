@@ -606,7 +606,7 @@ const carPackages = [
         category: "suv",
         update: "Updated",
         image: "imgs/ndrp/fpiu20.png",
-        description: "[!] You need to change the vehicle color to any grey! Recommend: #8A8A8A\n\n [!] [!] All Bullhorn Prancer (Dodge Charger) Pursuit liveries are technically compatible with every version of the vehicle, including the 2011, 2015, and 2020 models. However, you may encounter some glitches due to slight differences between the models.\n\n The Bullhorn Prancer Pursuit is a high-powered law enforcement vehicle engineered for speed, agility, and reliability. Featuring a robust engine, advanced performance technology, and a durable design, it excels in high-speed pursuits and demanding conditions. With a sleek profile and modern safety features, the Bullhorn Prancer Pursuit is built to support officers in maintaining control and authority on the road.",
+        description: "The Falcon Police Interceptor Sedan is a high-performance law enforcement vehicle designed for durability, speed, and safety. Built on a robust platform, it features a powerful engine, advanced suspension, and cutting-edge technology to meet the demanding needs of police work. With enhanced handling and pursuit capabilities, the Falcon Police Interceptor Sedan is engineered to excel in urban and highway environments.",
         codes: {
             left1: "11551551109",
             left2: "N/A",

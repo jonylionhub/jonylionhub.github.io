@@ -2,9 +2,9 @@
 const carPackages = [
     {
         id: 1,
-        title: "Metropolitan Police Sedan '17",
+        title: "Metropolitan Police Sedan",
         category: "sedan",
-        update: "Updated",
+        update: "Grade A",
         image: "imgs/mppd/sedan.png",
         description: "The Falcon Police Interceptor Sedan is a high-performance law enforcement vehicle designed for durability, speed, and safety. Built on a robust platform, it features a powerful engine, advanced suspension, and cutting-edge technology to meet the demanding needs of police work. With enhanced handling and pursuit capabilities, the Falcon Police Interceptor Sedan is engineered to excel in urban and highway environments.",
         codes: {
@@ -22,7 +22,7 @@ const carPackages = [
     },
     {
         id: 2,
-        title: "Metropolitan Police Utility '20",
+        title: "Metropolitan Police Utility",
         category: "suv",
         update: "Updated",
         image: "imgs/mppd/fpiu20.png",
@@ -42,7 +42,7 @@ const carPackages = [
     },
     {
         id: 3,
-        title: "Metropolitan Police Utility '13",
+        title: "Metropolitan Police Utility",
         category: "suv",
         update: "Updated",
         image: "imgs/mppd/fpiu13.png",
@@ -62,7 +62,7 @@ const carPackages = [
     },
     {
         id: 4,
-        title: "Metropolitan Police Utility '19",
+        title: "Metropolitan Police Utility",
         category: "suv",
         update: "Updated",
         image: "imgs/mppd/fpiu19.png",
@@ -82,7 +82,7 @@ const carPackages = [
     },
     {
         id: 5,
-        title: "Metropolitan Police Eques '03",
+        title: "Metropolitan Police Eques",
         category: "sedan",
         update: "Updated",
         image: "imgs/mppd/crownvic.png",
@@ -102,7 +102,7 @@ const carPackages = [
     },
     {
         id: 6,
-        title: "Metropolitan Police Prancer '11",
+        title: "Metropolitan Police Prancer",
         category: "sedan",
         update: "Updated",
         image: "imgs/mppd/charger11.png",
@@ -122,7 +122,7 @@ const carPackages = [
     },
     {
         id: 7,
-        title: "Metropolitan Police Prancer '15",
+        title: "Metropolitan Police Prancer",
         category: "sedan",
         update: "Updated",
         image: "imgs/mppd/charger15.png",
@@ -142,7 +142,7 @@ const carPackages = [
     },
     {
         id: 8,
-        title: "Metropolitan Police Camion PPV '08",
+        title: "Metropolitan Police Camion PPV",
         category: "suv",
         update: "Updated",
         image: "imgs/mppd/tahoe08.png",
@@ -162,7 +162,7 @@ const carPackages = [
     },
     {
         id: 9,
-        title: "Metropolitan Police Camion PPV '21",
+        title: "Metropolitan Police Camion PPV",
         category: "suv",
         update: "Semi-Updated",
         image: "imgs/mppd/tahoe21.png",
@@ -182,7 +182,7 @@ const carPackages = [
     },
     {
         id: 10,
-        title: "Metropolitan Police Camion PPV '18",
+        title: "Metropolitan Police Camion PPV",
         category: "suv",
         update: "Semi-Updated",
         image: "imgs/mppd/tahoe18.png",
@@ -202,7 +202,7 @@ const carPackages = [
     },
     {
         id: 11,
-        title: "Illinois State Trooper Eques '03",
+        title: "Illinois State Trooper Eques",
         category: "sedan",
         update: "Updated",
         image: "imgs/isp/crownvic.png",
@@ -222,7 +222,7 @@ const carPackages = [
     },
     {
         id: 12,
-        title: "Illinois State Trooper WB Prancer '20",
+        title: "Illinois State Trooper WB Prancer",
         category: "sedan",
         update: "Updated",
         image: "imgs/isp/charger20.png",
@@ -242,7 +242,7 @@ const carPackages = [
     },
     {
         id: 13,
-        title: "Illinois State Trooper Prancer '15",
+        title: "Illinois State Trooper Prancer",
         category: "sedan",
         update: "Updated",
         image: "imgs/isp/charger15.png",
@@ -262,7 +262,7 @@ const carPackages = [
     },
     {
         id: 14,
-        title: "Illinois State Trooper Prancer '11",
+        title: "Illinois State Trooper Prancer",
         category: "sedan",
         update: "Updated",
         image: "imgs/isp/charger11.png",
@@ -282,7 +282,7 @@ const carPackages = [
     },
     {
         id: 15,
-        title: "Illinois State Trooper Stallion 350 '15",
+        title: "Illinois State Trooper Stallion 350",
         category: "other",
         update: "Semi-Updated",
         image: "imgs/isp/mustang15.png",
@@ -302,7 +302,7 @@ const carPackages = [
     },
     {
         id: 16,
-        title: "Illinois State Trooper Corbeta TZ '14",
+        title: "Illinois State Trooper Corbeta TZ",
         category: "other",
         update: "Updated",
         image: "imgs/isp/corvette14.png",
@@ -322,7 +322,7 @@ const carPackages = [
     },
     {
         id: 17,
-        title: "Illinois State Trooper Utility '19",
+        title: "Illinois State Trooper Utility",
         category: "suv",
         update: "Updated",
         image: "imgs/isp/fpiu19.png",
@@ -342,7 +342,7 @@ const carPackages = [
     },
     {
         id: 18,
-        title: "Illinois State Trooper Sedan '17",
+        title: "Illinois State Trooper Sedan",
         category: "sedan",
         update: "Updated",
         image: "imgs/isp/sedan17.png",
@@ -362,7 +362,7 @@ const carPackages = [
     },
     {
         id: 19,
-        title: "California Highway Patrol Camion '08",
+        title: "California Highway Patrol Camion",
         category: "suv",
         update: "Updated",
         image: "imgs/chp/tahoe08.png",
@@ -382,7 +382,7 @@ const carPackages = [
     },
     {
         id: 20,
-        title: "California Highway Patrol Utility '13",
+        title: "California Highway Patrol Utility",
         category: "suv",
         update: "Updated",
         image: "imgs/chp/fpiu13.png",
@@ -402,7 +402,7 @@ const carPackages = [
     },
     {
         id: 21,
-        title: "California Highway Patrol Prancer '15",
+        title: "California Highway Patrol Prancer",
         category: "suv",
         update: "Updated",
         image: "imgs/chp/charger15.png",
@@ -422,7 +422,7 @@ const carPackages = [
     },
     {
         id: 22,
-        title: "California Highway Patrol Prancer '11",
+        title: "California Highway Patrol Prancer",
         category: "sedan",
         update: "Updated",
         image: "imgs/chp/charger11.png",
@@ -442,7 +442,7 @@ const carPackages = [
     },
     {
         id: 23,
-        title: "Alexandria Police Prancer '11",
+        title: "Alexandria Police Prancer",
         category: "sedan",
         update: "Updated",
         image: "imgs/alpd/charger11.png",
@@ -462,7 +462,7 @@ const carPackages = [
     },
     {
         id: 24,
-        title: "Alexandria Police Eques '03",
+        title: "Alexandria Police Eques",
         category: "sedan",
         update: "Updated",
         image: "imgs/alpd/charger11.png",
@@ -482,7 +482,7 @@ const carPackages = [
     },
     {
         id: 25,
-        title: "Alexandria Police Sedan '17",
+        title: "Alexandria Police Sedan",
         category: "sedan",
         update: "Updated",
         image: "imgs/alpd/sedan17.png",
@@ -502,7 +502,7 @@ const carPackages = [
     },
     {
         id: 26,
-        title: "Calorado Highway Patrol Prancer '15",
+        title: "Calorado Highway Patrol Prancer",
         category: "sedan",
         update: "Updated",
         image: "imgs/calorp/charger15hp.png",
@@ -522,7 +522,7 @@ const carPackages = [
     },
     {
         id: 27,
-        title: "Calorado Springs Police Prancer '15",
+        title: "Calorado Springs Police Prancer",
         category: "sedan",
         update: "Updated",
         image: "imgs/calorp/charger15pd.png",
@@ -542,7 +542,7 @@ const carPackages = [
     },
     {
         id: 28,
-        title: "Calorado Springs Police Prancer '15",
+        title: "Calorado Springs Police Prancer",
         category: "sedan",
         update: "Updated",
         image: "imgs/calorp/charger15pd2.png",
@@ -562,7 +562,7 @@ const carPackages = [
     },
     {
         id: 29,
-        title: "Calorado State Patrol Prancer '15",
+        title: "Calorado State Patrol Prancer",
         category: "sedan",
         update: "Updated",
         image: "imgs/calorp/charger15sp.png",
@@ -582,7 +582,7 @@ const carPackages = [
     },
     {
         id: 30,
-        title: "Calorado Douglas County Prancer '11",
+        title: "Calorado Douglas County Prancer",
         category: "sedan",
         update: "Updated",
         image: "imgs/ndrp/charger11.png",
@@ -602,7 +602,7 @@ const carPackages = [
     },
     {
         id: 31,
-        title: "Calorado Douglas County Utility '20",
+        title: "Calorado Douglas County Utility",
         category: "suv",
         update: "Updated",
         image: "imgs/ndrp/fpiu20.png",

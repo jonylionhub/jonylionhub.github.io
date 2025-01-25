@@ -4,7 +4,7 @@ const carPackages = [
         id: 1,
         title: "Metropolitan Police Sedan",
         category: "sedan",
-        update: "Grade A",
+        update: "Updated",
         image: "imgs/mppd/sedan.png",
         description: "The Falcon Police Interceptor Sedan is a high-performance law enforcement vehicle designed for durability, speed, and safety. Built on a robust platform, it features a powerful engine, advanced suspension, and cutting-edge technology to meet the demanding needs of police work. With enhanced handling and pursuit capabilities, the Falcon Police Interceptor Sedan is engineered to excel in urban and highway environments.",
         codes: {

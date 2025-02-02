@@ -606,7 +606,7 @@ const carPackages = [
         category: "suv",
         update: "Updated",
         image: "imgs/ndrp/fpiu20.png",
-        description: "The Falcon Police Interceptor Sedan is a high-performance law enforcement vehicle designed for durability, speed, and safety. Built on a robust platform, it features a powerful engine, advanced suspension, and cutting-edge technology to meet the demanding needs of police work. With enhanced handling and pursuit capabilities, the Falcon Police Interceptor Sedan is engineered to excel in urban and highway environments.",
+        description: "[!] All Falcon (Ford) Police Interceptor Utility liveries are technically compatible with every version of the vehicle, including the 2013, 2019, and 2020 models. However, you may encounter some glitches due to slight differences between the models.\n\n The Falcon Police Interceptor Utility is a versatile and rugged law enforcement vehicle built to handle a variety of challenges. Equipped with a powerful engine, advanced all-wheel-drive capabilities, and innovative safety features, it provides exceptional performance in both urban and off-road settings. With ample interior space for equipment and personnel, the Falcon Police Interceptor Utility is designed to meet the diverse needs of modern police forces.",
         codes: {
             left1: "11551551109",
             left2: "N/A",
@@ -619,7 +619,167 @@ const carPackages = [
             front1: "11551457869",
             front2: "N/A"
         }
-    }
+    },
+    {
+        id: 32,
+        title: "Virginia State Police Utility",
+        category: "suv",
+        update: "Updated",
+        image: "imgs/vsp/fpiu2019.png",
+        description: "[!] All Falcon (Ford) Police Interceptor Utility liveries are technically compatible with every version of the vehicle, including the 2013, 2019, and 2020 models. However, you may encounter some glitches due to slight differences between the models.\n\n The Falcon Police Interceptor Utility is a versatile and rugged law enforcement vehicle built to handle a variety of challenges. Equipped with a powerful engine, advanced all-wheel-drive capabilities, and innovative safety features, it provides exceptional performance in both urban and off-road settings. With ample interior space for equipment and personnel, the Falcon Police Interceptor Utility is designed to meet the diverse needs of modern police forces.",
+        codes: {
+            left1: "13048134052",
+            left2: "N/A",
+            right1: "13048130463",
+            right2: "N/A",
+            top1: "N/A",
+            top2: "N/A",
+            back1: "13048124054 ",
+            back2: "N/A",
+            front1: "N/A",
+            front2: "N/A"
+        }
+    },
+    {
+        id: 33,
+        title: "Virginia State Police Utility",
+        category: "suv",
+        update: "Updated",
+        image: "imgs/vsp/fpiu2020.png",
+        description: "[!] All Falcon (Ford) Police Interceptor Utility liveries are technically compatible with every version of the vehicle, including the 2013, 2019, and 2020 models. However, you may encounter some glitches due to slight differences between the models.\n\n The Falcon Police Interceptor Utility is a versatile and rugged law enforcement vehicle built to handle a variety of challenges. Equipped with a powerful engine, advanced all-wheel-drive capabilities, and innovative safety features, it provides exceptional performance in both urban and off-road settings. With ample interior space for equipment and personnel, the Falcon Police Interceptor Utility is designed to meet the diverse needs of modern police forces.",
+        codes: {
+            left1: "13048036357",
+            left2: "N/A",
+            right1: "13048055152",
+            right2: "N/A",
+            top1: "N/A",
+            top2: "N/A",
+            back1: "13048004629 ",
+            back2: "N/A",
+            front1: "N/A",
+            front2: "N/A"
+        }
+    },
+    {
+        id: 34,
+        title: "Virginia State Police X5",
+        category: "suv",
+        update: "Updated",
+        image: "imgs/vsp/bmwx5.png",
+        description: "The BKM Munich Police version is a versatile and high-performance law enforcement SUV designed for agility, power, and reliability. Equipped with a powerful engine, advanced all-wheel-drive system, and cutting-edge technology, it excels in both urban patrols and high-speed pursuits. With a spacious and well-equipped interior, the BKM Munich Police version ensures officers have the comfort and capability needed to handle any situation with confidence.",
+        codes: {
+            left1: "13047932068",
+            left2: "N/A",
+            right1: "13047962796",
+            right2: "N/A",
+            top1: "N/A",
+            top2: "N/A",
+            back1: "13047851092 ",
+            back2: "N/A",
+            front1: "N/A",
+            front2: "N/A"
+        }
+    },
+    {
+        id: 35,
+        title: "Virginia State Police Camion PPV",
+        category: "suv",
+        update: "Updated",
+        image: "imgs/vsp/tahoe2008.png",
+        description: "[!] All Chevlon Camion Police Pursuit Vehicle (Chevrolet Tahoe PPV) liveries are technically compatible with every version of the vehicle, including the 2008, 2018, and 2021 models. However, you may encounter some glitches due to slight differences between the models.\n\n The Chevlon Camion Police Pursuit Vehicle is a robust and versatile law enforcement SUV designed for high-performance operations. Equipped with a powerful engine, advanced all-wheel-drive capabilities, and a durable chassis, it delivers exceptional performance in both urban and rugged terrains. With a spacious interior for officers and equipment, the Chevlon Camion Police Pursuit Vehicle is built to meet the rigorous demands of modern policing.",
+        codes: {
+            left1: "13047798849",
+            left2: "N/A",
+            right1: "13047820009",
+            right2: "N/A",
+            top1: "N/A",
+            top2: "N/A",
+            back1: "13047790560 ",
+            back2: "N/A",
+            front1: "N/A",
+            front2: "N/A"
+        }
+    },
+    {
+        id: 36,
+        title: "Virginia State Police Sedan",
+        category: "sedan",
+        update: "Updated",
+        image: "imgs/vsp/sedan17.png",
+        description: "The Falcon Police Interceptor Sedan is a high-performance law enforcement vehicle designed for durability, speed, and safety. Built on a robust platform, it features a powerful engine, advanced suspension, and cutting-edge technology to meet the demanding needs of police work. With enhanced handling and pursuit capabilities, the Falcon Police Interceptor Sedan is engineered to excel in urban and highway environments.",
+        codes: {
+            left1: "13047703272",
+            left2: "N/A",
+            right1: "13047730677",
+            right2: "N/A",
+            top1: "N/A",
+            top2: "N/A",
+            back1: "N/A ",
+            back2: "13047660163",
+            front1: "N/A",
+            front2: "N/A"
+        }
+    },
+    {
+        id: 37,
+        title: "Virginia State Police Eques",
+        category: "sedan",
+        update: "Updated",
+        image: "imgs/vsp/crownvic03.png",
+        description: "Optional back2: 13047389022\n\nThe Falcon Crown Victoria Police Interceptor is a legendary law enforcement vehicle known for its reliability, durability, and commanding presence. Built on a sturdy body-on-frame design, it features a powerful V8 engine, rear-wheel drive, and enhanced suspension for pursuit and patrol duties. Renowned for its spacious interior and proven performance, the Falcon Crown Victoria Police Interceptor remains a symbol of dependable service in police fleets.",
+        codes: {
+            left1: "13047458378",
+            left2: "N/A",
+            right1: "13047556610",
+            right2: "N/A",
+            top1: "N/A",
+            top2: "N/A",
+            back1: "13047377380",
+            back2: "13047397449",
+            front1: "N/A",
+            front2: "N/A"
+        }
+    },
+    {
+        id: 38,
+        title: "Virginia State Police Prancer Pursuit",
+        category: "sedan",
+        update: "Updated",
+        image: "imgs/vsp/charger2015.png",
+        description: "[!] All Bullhorn Prancer (Dodge Charger) Pursuit liveries are technically compatible with every version of the vehicle, including the 2011, 2015, and 2020 models. However, you may encounter some glitches due to slight differences between the models.\n\n The Bullhorn Prancer Pursuit is a high-powered law enforcement vehicle engineered for speed, agility, and reliability. Featuring a robust engine, advanced performance technology, and a durable design, it excels in high-speed pursuits and demanding conditions. With a sleek profile and modern safety features, the Bullhorn Prancer Pursuit is built to support officers in maintaining control and authority on the road.",
+        codes: {
+            left1: "13046953837",
+            left2: "N/A",
+            right1: "13047107056",
+            right2: "N/A",
+            top1: "N/A",
+            top2: "N/A",
+            back1: "13046968336",
+            back2: "N/A",
+            front1: "N/A",
+            front2: "N/A"
+        }
+    },
+    {
+        id: 39,
+        title: "Virginia Loudoun County Camion PPV",
+        category: "suv",
+        update: "Outdated",
+        image: "imgs/vsp/lctahoe08.png",
+        description: "[!] All Chevlon Camion Police Pursuit Vehicle (Chevrolet Tahoe PPV) liveries are technically compatible with every version of the vehicle, including the 2008, 2018, and 2021 models. However, you may encounter some glitches due to slight differences between the models.\n\n The Chevlon Camion Police Pursuit Vehicle is a robust and versatile law enforcement SUV designed for high-performance operations. Equipped with a powerful engine, advanced all-wheel-drive capabilities, and a durable chassis, it delivers exceptional performance in both urban and rugged terrains. With a spacious interior for officers and equipment, the Chevlon Camion Police Pursuit Vehicle is built to meet the rigorous demands of modern policing.",
+        codes: {
+            left1: "13046281003",
+            left2: "N/A",
+            right1: "13046253681",
+            right2: "N/A",
+            top1: "N/A",
+            top2: "N/A",
+            back1: "13046293842",
+            back2: "N/A",
+            front1: "13046301650",
+            front2: "N/A"
+        }
+    },
 ];
 
 // DOM Elements

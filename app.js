@@ -502,7 +502,7 @@ const carPackages = [
     },
     {
         id: 26,
-        title: "Calorado Highway Patrol Prancer",
+        title: "Colorado Highway Patrol Prancer",
         category: "sedan",
         update: "Updated",
         image: "imgs/calorp/charger15hp.png",
@@ -522,7 +522,7 @@ const carPackages = [
     },
     {
         id: 27,
-        title: "Calorado Springs Police Prancer",
+        title: "Colorado Springs Police Prancer",
         category: "sedan",
         update: "Updated",
         image: "imgs/calorp/charger15pd.png",
@@ -542,7 +542,7 @@ const carPackages = [
     },
     {
         id: 28,
-        title: "Calorado Springs Police Prancer",
+        title: "Colorado Springs Police Prancer",
         category: "sedan",
         update: "Updated",
         image: "imgs/calorp/charger15pd2.png",
@@ -562,7 +562,7 @@ const carPackages = [
     },
     {
         id: 29,
-        title: "Calorado State Patrol Prancer",
+        title: "Colorado State Patrol Prancer",
         category: "sedan",
         update: "Updated",
         image: "imgs/calorp/charger15sp.png",
@@ -582,7 +582,7 @@ const carPackages = [
     },
     {
         id: 30,
-        title: "Calorado Douglas County Prancer",
+        title: "Colorado Douglas County Prancer",
         category: "sedan",
         update: "Updated",
         image: "imgs/ndrp/charger11.png",
@@ -602,7 +602,7 @@ const carPackages = [
     },
     {
         id: 31,
-        title: "Calorado Douglas County Utility",
+        title: "Colorado Douglas County Utility",
         category: "suv",
         update: "Updated",
         image: "imgs/ndrp/fpiu20.png",

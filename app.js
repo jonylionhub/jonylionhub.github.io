@@ -1,205 +1,5 @@
 // Sample data for car packages
 const carPackages = [
-    // {
-    //     id: 1,
-    //     title: "Metropolitan Police Sedan",
-    //     category: "sedan",
-    //     update: "Updated",
-    //     image: "imgs/mppd/sedan.png",
-    //     description: "The Falcon Police Interceptor Sedan is a high-performance law enforcement vehicle designed for durability, speed, and safety. Built on a robust platform, it features a powerful engine, advanced suspension, and cutting-edge technology to meet the demanding needs of police work. With enhanced handling and pursuit capabilities, the Falcon Police Interceptor Sedan is engineered to excel in urban and highway environments.",
-    //     codes: {
-    //         left1: "13995040784",
-    //         left2: "N/A",
-    //         right1: "13995037071",
-    //         right2: "N/A",
-    //         top1: "13995041856",
-    //         top2: "N/A",
-    //         back1: "N/A",
-    //         back2: "13995043090",
-    //         front1: "N/A",
-    //         front2: "N/A"
-    //     }
-    // },
-    // {
-    //     id: 2,
-    //     title: "Metropolitan Police Utility",
-    //     category: "suv",
-    //     update: "Updated",
-    //     image: "imgs/mppd/fpiu20.png",
-    //     description: "[!] All Falcon (Ford) Police Interceptor Utility liveries are technically compatible with every version of the vehicle, including the 2013, 2019, and 2020 models. However, you may encounter some glitches due to slight differences between the models.\n\n The Falcon Police Interceptor Utility is a versatile and rugged law enforcement vehicle built to handle a variety of challenges. Equipped with a powerful engine, advanced all-wheel-drive capabilities, and innovative safety features, it provides exceptional performance in both urban and off-road settings. With ample interior space for equipment and personnel, the Falcon Police Interceptor Utility is designed to meet the diverse needs of modern police forces.",
-    //     codes: {
-    //         left1: "13140459966",
-    //         left2: "N/A",
-    //         right1: "13140461716",
-    //         right2: "N/A",
-    //         top1: "13140463962",
-    //         top2: "N/A",
-    //         back1: "13140466148",
-    //         back2: "N/A",
-    //         front1: "N/A",
-    //         front2: "N/A"
-    //     }
-    // },
-    // {
-    //     id: 3,
-    //     title: "Metropolitan Police Utility",
-    //     category: "suv",
-    //     update: "Updated",
-    //     image: "imgs/mppd/fpiu13.png",
-    //     description: "[!] All Falcon (Ford) Police Interceptor Utility liveries are technically compatible with every version of the vehicle, including the 2013, 2019, and 2020 models. However, you may encounter some glitches due to slight differences between the models.\n\n The Falcon Police Interceptor Utility is a versatile and rugged law enforcement vehicle built to handle a variety of challenges. Equipped with a powerful engine, advanced all-wheel-drive capabilities, and innovative safety features, it provides exceptional performance in both urban and off-road settings. With ample interior space for equipment and personnel, the Falcon Police Interceptor Utility is designed to meet the diverse needs of modern police forces.",
-    //     codes: {
-    //         left1: "13126584052",
-    //         left2: "N/A",
-    //         right1: "13126582759",
-    //         right2: "N/A",
-    //         top1: "126286170181554",
-    //         top2: "N/A",
-    //         back1: "73364569983611",
-    //         back2: "N/A",
-    //         front1: "N/A",
-    //         front2: "N/A"
-    //     }
-    // },
-    // {
-    //     id: 4,
-    //     title: "Metropolitan Police Utility",
-    //     category: "suv",
-    //     update: "Updated",
-    //     image: "imgs/mppd/fpiu19.png",
-    //     description: "[!] All Falcon (Ford) Police Interceptor Utility liveries are technically compatible with every version of the vehicle, including the 2013, 2019, and 2020 models. However, you may encounter some glitches due to slight differences between the models.\n\n The Falcon Police Interceptor Utility is a versatile and rugged law enforcement vehicle built to handle a variety of challenges. Equipped with a powerful engine, advanced all-wheel-drive capabilities, and innovative safety features, it provides exceptional performance in both urban and off-road settings. With ample interior space for equipment and personnel, the Falcon Police Interceptor Utility is designed to meet the diverse needs of modern police forces.",
-    //     codes: {
-    //         left1: "13126584052",
-    //         left2: "N/A",
-    //         right1: "13126582759",
-    //         right2: "N/A",
-    //         top1: "13126495450",
-    //         top2: "N/A",
-    //         back1: "128428392211967",
-    //         back2: "N/A",
-    //         front1: "N/A",
-    //         front2: "N/A"
-    //     }
-    // },
-    // {
-    //     id: 5,
-    //     title: "Metropolitan Police Eques",
-    //     category: "sedan",
-    //     update: "Updated",
-    //     image: "imgs/mppd/crownvic.png",
-    //     description: "The Falcon Crown Victoria Police Interceptor is a legendary law enforcement vehicle known for its reliability, durability, and commanding presence. Built on a sturdy body-on-frame design, it features a powerful V8 engine, rear-wheel drive, and enhanced suspension for pursuit and patrol duties. Renowned for its spacious interior and proven performance, the Falcon Crown Victoria Police Interceptor remains a symbol of dependable service in police fleets.",
-    //     codes: {
-    //         left1: "13148958633",
-    //         left2: "N/A",
-    //         right1: "13148959997",
-    //         right2: "N/A",
-    //         top1: "13148962043",
-    //         top2: "N/A",
-    //         back1: "13149005064",
-    //         back2: "13148956802",
-    //         front1: "N/A",
-    //         front2: "N/A"
-    //     }
-    // },
-    // {
-    //     id: 6,
-    //     title: "Metropolitan Police Prancer",
-    //     category: "sedan",
-    //     update: "Updated",
-    //     image: "imgs/mppd/charger11.png",
-    //     description: "[!] All Bullhorn Prancer (Dodge Charger) Pursuit liveries are technically compatible with every version of the vehicle, including the 2011, 2015, and 2020 models. However, you may encounter some glitches due to slight differences between the models.\n\n The Bullhorn Prancer Pursuit is a high-powered law enforcement vehicle engineered for speed, agility, and reliability. Featuring a robust engine, advanced performance technology, and a durable design, it excels in high-speed pursuits and demanding conditions. With a sleek profile and modern safety features, the Bullhorn Prancer Pursuit is built to support officers in maintaining control and authority on the road.",
-    //     codes: {
-    //         left1: "13148880160",
-    //         left2: "N/A",
-    //         right1: "13148876784",
-    //         right2: "N/A",
-    //         top1: "13148878960",
-    //         top2: "N/A",
-    //         back1: "13148877931",
-    //         back2: "N/A",
-    //         front1: "N/A",
-    //         front2: "N/A"
-    //   }
-    // },
-    // {
-    //     id: 7,
-    //     title: "Metropolitan Police Prancer",
-    //     category: "sedan",
-    //     update: "Updated",
-    //     image: "imgs/mppd/charger15.png",
-    //     description: "[!] All Bullhorn Prancer (Dodge Charger) Pursuit liveries are technically compatible with every version of the vehicle, including the 2011, 2015, and 2020 models. However, you may encounter some glitches due to slight differences between the models.\n\n The Bullhorn Prancer Pursuit is a high-powered law enforcement vehicle engineered for speed, agility, and reliability. Featuring a robust engine, advanced performance technology, and a durable design, it excels in high-speed pursuits and demanding conditions. With a sleek profile and modern safety features, the Bullhorn Prancer Pursuit is built to support officers in maintaining control and authority on the road.",
-    //     codes: {
-    //         left1: "13148823613",
-    //         left2: "N/A",
-    //         right1: "13148822600",
-    //         right2: "N/A",
-    //         top1: "13148825735",
-    //         top2: "N/A",
-    //         back1: "13148824653",
-    //         back2: "N/A",
-    //         front1: "N/A",
-    //         front2: "N/A"
-    //   }
-    // },
-    // {
-    //     id: 8,
-    //     title: "Metropolitan Police Camion PPV",
-    //     category: "suv",
-    //     update: "Updated",
-    //     image: "imgs/mppd/tahoe08.png",
-    //     description: "[!] All Chevlon Camion Police Pursuit Vehicle (Chevrolet Tahoe PPV) liveries are technically compatible with every version of the vehicle, including the 2008, 2018, and 2021 models. However, you may encounter some glitches due to slight differences between the models.\n\n The Chevlon Camion Police Pursuit Vehicle is a robust and versatile law enforcement SUV designed for high-performance operations. Equipped with a powerful engine, advanced all-wheel-drive capabilities, and a durable chassis, it delivers exceptional performance in both urban and rugged terrains. With a spacious interior for officers and equipment, the Chevlon Camion Police Pursuit Vehicle is built to meet the rigorous demands of modern policing.",
-    //     codes: {
-    //         left1: "13140261821",
-    //         left2: "N/A",
-    //         right1: "13140257935",
-    //         right2: "N/A",
-    //         top1: "98205043092386",
-    //         top2: "N/A",
-    //         back1: "13140259745",
-    //         back2: "N/A",
-    //         front1: "N/A",
-    //         front2: "N/A"
-    //     }
-    // },
-    // {
-    //     id: 9,
-    //     title: "Metropolitan Police Camion PPV",
-    //     category: "suv",
-    //     update: "Semi-Updated",
-    //     image: "imgs/mppd/tahoe21.png",
-    //     description: "[!] All Chevlon Camion Police Pursuit Vehicle (Chevrolet Tahoe PPV) liveries are technically compatible with every version of the vehicle, including the 2008, 2018, and 2021 models. However, you may encounter some glitches due to slight differences between the models.\n\n The Chevlon Camion Police Pursuit Vehicle is a robust and versatile law enforcement SUV designed for high-performance operations. Equipped with a powerful engine, advanced all-wheel-drive capabilities, and a durable chassis, it delivers exceptional performance in both urban and rugged terrains. With a spacious interior for officers and equipment, the Chevlon Camion Police Pursuit Vehicle is built to meet the rigorous demands of modern policing.",
-    //     codes: {
-    //         left1: "13140348314",
-    //         left2: "N/A",
-    //         right1: "13140342703",
-    //         right2: "N/A",
-    //         top1: "126866871844893",
-    //         top2: "N/A",
-    //         back1: "133203201593323",
-    //         back2: "N/A",
-    //         front1: "N/A",
-    //         front2: "N/A"
-    //     }
-    // },
-    // {
-    //     id: 10,
-    //     title: "Metropolitan Police Camion PPV",
-    //     category: "suv",
-    //     update: "Semi-Updated",
-    //     image: "imgs/mppd/tahoe18.png",
-    //     description: "[!] All Chevlon Camion Police Pursuit Vehicle (Chevrolet Tahoe PPV) liveries are technically compatible with every version of the vehicle, including the 2008, 2018, and 2021 models. However, you may encounter some glitches due to slight differences between the models.\n\n The Chevlon Camion Police Pursuit Vehicle is a robust and versatile law enforcement SUV designed for high-performance operations. Equipped with a powerful engine, advanced all-wheel-drive capabilities, and a durable chassis, it delivers exceptional performance in both urban and rugged terrains. With a spacious interior for officers and equipment, the Chevlon Camion Police Pursuit Vehicle is built to meet the rigorous demands of modern policing.",
-    //     codes: {
-    //         left1: "13140261821",
-    //         left2: "N/A",
-    //         right1: "13140257935",
-    //         right2: "N/A",
-    //         top1: "98205043092386",
-    //         top2: "N/A",
-    //         back1: "13140259745",
-    //         back2: "N/A",
-    //         front1: "N/A",
-    //         front2: "N/A"
-    //     }
-    // },
     {
         id: 11,
         title: "Illinois State Trooper Eques",
@@ -780,6 +580,66 @@ const carPackages = [
             front2: "N/A"
         }
     },
+    {
+        id: 40,
+        title: "Chicago Police Camion PPV",
+        category: "suv",
+        update: "Updated",
+        image: "imgs/cpd/tahoe08.png",
+        description: "[!] All Chevlon Camion Police Pursuit Vehicle (Chevrolet Tahoe PPV) liveries are technically compatible with every version of the vehicle, including the 2008, 2018, and 2021 models. However, you may encounter some glitches due to slight differences between the models.\n\n The Chevlon Camion Police Pursuit Vehicle is a robust and versatile law enforcement SUV designed for high-performance operations. Equipped with a powerful engine, advanced all-wheel-drive capabilities, and a durable chassis, it delivers exceptional performance in both urban and rugged terrains. With a spacious interior for officers and equipment, the Chevlon Camion Police Pursuit Vehicle is built to meet the rigorous demands of modern policing.",
+        codes: {
+            left1: "13240287786",
+            left2: "N/A",
+            right1: "13240281940",
+            right2: "N/A",
+            top1: "13240298397",
+            top2: "N/A",
+            back1: "13240290531",
+            back2: "N/A",
+            front1: "13240296907",
+            front2: "N/A"
+        }
+    },
+    {
+        id: 42,
+        title: "Florida Highway Patrol SFP Fury",
+        category: "other",
+        update: "Updated",
+        image: "imgs/florida/sfp.png",
+        description: "[!] You need to change the vehicle color to any grey! Recommend: #3B3B3B\n\n The Bullhorn Determinator SFP Fury is a high-powered law enforcement vehicle built for speed, strength, and control. Featuring a robust V8 engine, reinforced suspension, and advanced pursuit technology, it excels in high-speed chases and tactical operations. With an aggressive design and modern safety enhancements, the Bullhorn Determinator SFP Fury delivers the power and reliability officers need to maintain authority on the road.",
+        codes: {
+            left1: "13744496805",
+            left2: "N/A",
+            right1: "13744501385",
+            right2: "N/A",
+            top1: "N/A",
+            top2: "N/A",
+            back1: "13744498345",
+            back2: "N/A",
+            front1: "N/A",
+            front2: "N/A"
+        }
+    },
+    {
+        id: 43,
+        title: "SWAT Truck",
+        category: "other",
+        update: "Updated",
+        image: "imgs/chp/swat.png",
+        description: "The SWAT Bearcat is a heavily armored tactical vehicle designed for high-risk law enforcement and military operations. Built on a rugged chassis, it features reinforced ballistic protection, run-flat tires, and advanced breaching capabilities. With its powerful engine and off-road capability, the SWAT Bearcat provides law enforcement teams with a secure and mobile platform for hostage rescues, riot control, and dangerous tactical missions.",
+        codes: {
+            left1: "13979595607",
+            left2: "13979601532",
+            right1: "118282649535921",
+            right2: "73717790880376",
+            top1: "N/A",
+            top2: "13979608403",
+            back1: "13979576815",
+            back2: "13979587697",
+            front1: "N/A",
+            front2: "N/A"
+        }
+    }
 ];
 
 // DOM Elements

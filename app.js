@@ -1,10 +1,10 @@
 // Sample data for car packages
 const carPackages = [
     {
-        id: 11,
+        id: 1,
         title: "Illinois State Trooper Eques",
         category: "sedan",
-        update: "Updated",
+        grade: "A",
         image: "imgs/isp/crownvic.png",
         description: "The Falcon Crown Victoria Police Interceptor is a legendary law enforcement vehicle known for its reliability, durability, and commanding presence. Built on a sturdy body-on-frame design, it features a powerful V8 engine, rear-wheel drive, and enhanced suspension for pursuit and patrol duties. Renowned for its spacious interior and proven performance, the Falcon Crown Victoria Police Interceptor remains a symbol of dependable service in police fleets.",
         codes: {
@@ -21,10 +21,10 @@ const carPackages = [
         }
     },
     {
-        id: 12,
+        id: 2,
         title: "Illinois State Trooper WB Prancer",
         category: "sedan",
-        update: "Updated",
+        grade: "A",
         image: "imgs/isp/charger20.png",
         description: "[!] All Bullhorn Prancer (Dodge Charger) Pursuit liveries are technically compatible with every version of the vehicle, including the 2011, 2015, and 2020 models. However, you may encounter some glitches due to slight differences between the models.\n\n The Bullhorn Prancer Pursuit is a high-powered law enforcement vehicle engineered for speed, agility, and reliability. Featuring a robust engine, advanced performance technology, and a durable design, it excels in high-speed pursuits and demanding conditions. With a sleek profile and modern safety features, the Bullhorn Prancer Pursuit is built to support officers in maintaining control and authority on the road.",
         codes: {
@@ -41,10 +41,10 @@ const carPackages = [
         }
     },
     {
-        id: 13,
+        id: 3,
         title: "Illinois State Trooper Prancer",
         category: "sedan",
-        update: "Updated",
+        grade: "A",
         image: "imgs/isp/charger15.png",
         description: "[!] All Bullhorn Prancer (Dodge Charger) Pursuit liveries are technically compatible with every version of the vehicle, including the 2011, 2015, and 2020 models. However, you may encounter some glitches due to slight differences between the models.\n\n The Bullhorn Prancer Pursuit is a high-powered law enforcement vehicle engineered for speed, agility, and reliability. Featuring a robust engine, advanced performance technology, and a durable design, it excels in high-speed pursuits and demanding conditions. With a sleek profile and modern safety features, the Bullhorn Prancer Pursuit is built to support officers in maintaining control and authority on the road.",
         codes: {
@@ -61,10 +61,10 @@ const carPackages = [
         }
     },
     {
-        id: 14,
+        id: 4,
         title: "Illinois State Trooper Prancer",
         category: "sedan",
-        update: "Updated",
+        grade: "A",
         image: "imgs/isp/charger11.png",
         description: "[!] All Bullhorn Prancer (Dodge Charger) Pursuit liveries are technically compatible with every version of the vehicle, including the 2011, 2015, and 2020 models. However, you may encounter some glitches due to slight differences between the models.\n\n The Bullhorn Prancer Pursuit is a high-powered law enforcement vehicle engineered for speed, agility, and reliability. Featuring a robust engine, advanced performance technology, and a durable design, it excels in high-speed pursuits and demanding conditions. With a sleek profile and modern safety features, the Bullhorn Prancer Pursuit is built to support officers in maintaining control and authority on the road.",
         codes: {
@@ -81,10 +81,10 @@ const carPackages = [
         }
     },
     {
-        id: 15,
+        id: 5,
         title: "Illinois State Trooper Stallion 350",
         category: "other",
-        update: "Semi-Updated",
+        grade: "A",
         image: "imgs/isp/mustang15.png",
         description: "The Falcon Stallion 350 Police variant is a high-performance law enforcement vehicle built for speed, power, and precision. Equipped with a formidable engine, advanced suspension, and state-of-the-art technology, it excels in high-speed pursuits and rapid response situations. With its striking design and enhanced handling, the Falcon Stallion 350 Police variant offers unmatched agility, making it a top choice for officers in need of exceptional performance and control.",
         codes: {
@@ -101,10 +101,10 @@ const carPackages = [
         }
     },
     {
-        id: 16,
+        id: 6,
         title: "Illinois State Trooper Corbeta TZ",
         category: "other",
-        update: "Updated",
+        grade: "A",
         image: "imgs/isp/corvette14.png",
         description: "The Chevlon Corbeta TZ Police variant is a high-performance law enforcement vehicle designed for ultimate speed and agility. Featuring a supercharged V8 engine, advanced handling systems, and cutting-edge technology, it delivers exceptional pursuit capabilities on both highways and urban roads. With a sleek, aerodynamic design and enhanced safety features, the Chevlon Corbeta TZ Police variant combines speed, power, and precision for modern law enforcement needs.",
         codes: {
@@ -121,10 +121,10 @@ const carPackages = [
         }
     },
     {
-        id: 17,
+        id: 7,
         title: "Illinois State Trooper Utility",
         category: "suv",
-        update: "Updated",
+        grade: "A",
         image: "imgs/isp/fpiu19.png",
         description: "[!] All Falcon (Ford) Police Interceptor Utility liveries are technically compatible with every version of the vehicle, including the 2013, 2019, and 2020 models. However, you may encounter some glitches due to slight differences between the models.\n\n The Falcon Police Interceptor Utility is a versatile and rugged law enforcement vehicle built to handle a variety of challenges. Equipped with a powerful engine, advanced all-wheel-drive capabilities, and innovative safety features, it provides exceptional performance in both urban and off-road settings. With ample interior space for equipment and personnel, the Falcon Police Interceptor Utility is designed to meet the diverse needs of modern police forces.",
         codes: {
@@ -141,10 +141,10 @@ const carPackages = [
         }
     },
     {
-        id: 18,
+        id: 8,
         title: "Illinois State Trooper Sedan",
         category: "sedan",
-        update: "Updated",
+        grade: "A",
         image: "imgs/isp/sedan17.png",
         description: "The Falcon Police Interceptor Sedan is a high-performance law enforcement vehicle designed for durability, speed, and safety. Built on a robust platform, it features a powerful engine, advanced suspension, and cutting-edge technology to meet the demanding needs of police work. With enhanced handling and pursuit capabilities, the Falcon Police Interceptor Sedan is engineered to excel in urban and highway environments.",
         codes: {
@@ -161,12 +161,12 @@ const carPackages = [
         }
     },
     {
-        id: 19,
+        id: 9,
         title: "California Highway Patrol Camion",
         category: "suv",
-        update: "Updated",
+        grade: "A",
         image: "imgs/chp/tahoe08.png",
-        description: "[!] All Chevlon Camion Police Pursuit Vehicle (Chevrolet Tahoe PPV) liveries are technically compatible with every version of the vehicle, including the 2008, 2018, and 2021 models. However, you may encounter some glitches due to slight differences between the models.\n\n The Chevlon Camion Police Pursuit Vehicle is a robust and versatile law enforcement SUV designed for high-performance operations. Equipped with a powerful engine, advanced all-wheel-drive capabilities, and a durable chassis, it delivers exceptional performance in both urban and rugged terrains. With a spacious interior for officers and equipment, the Chevlon Camion Police Pursuit Vehicle is built to meet the rigorous demands of modern policing.",
+        description: "[!] You need to change the vehicle color to black! Recommend: #000000\n\n [!] All Chevlon Camion Police Pursuit Vehicle (Chevrolet Tahoe PPV) liveries are technically compatible with every version of the vehicle, including the 2008, 2018, and 2021 models. However, you may encounter some glitches due to slight differences between the models.\n\n The Chevlon Camion Police Pursuit Vehicle is a robust and versatile law enforcement SUV designed for high-performance operations. Equipped with a powerful engine, advanced all-wheel-drive capabilities, and a durable chassis, it delivers exceptional performance in both urban and rugged terrains. With a spacious interior for officers and equipment, the Chevlon Camion Police Pursuit Vehicle is built to meet the rigorous demands of modern policing.",
         codes: {
             left1: "13762181000",
             left2: "N/A",
@@ -181,12 +181,12 @@ const carPackages = [
         }
     },
     {
-        id: 20,
+        id: 10,
         title: "California Highway Patrol Utility",
         category: "suv",
-        update: "Updated",
+        grade: "A",
         image: "imgs/chp/fpiu13.png",
-        description: "[!] All Falcon (Ford) Police Interceptor Utility liveries are technically compatible with every version of the vehicle, including the 2013, 2019, and 2020 models. However, you may encounter some glitches due to slight differences between the models.\n\n The Falcon Police Interceptor Utility is a versatile and rugged law enforcement vehicle built to handle a variety of challenges. Equipped with a powerful engine, advanced all-wheel-drive capabilities, and innovative safety features, it provides exceptional performance in both urban and off-road settings. With ample interior space for equipment and personnel, the Falcon Police Interceptor Utility is designed to meet the diverse needs of modern police forces.",
+        description: "[!] You need to change the vehicle color to black! Recommend: #000000\n\n [!] All Falcon (Ford) Police Interceptor Utility liveries are technically compatible with every version of the vehicle, including the 2013, 2019, and 2020 models. However, you may encounter some glitches due to slight differences between the models.\n\n The Falcon Police Interceptor Utility is a versatile and rugged law enforcement vehicle built to handle a variety of challenges. Equipped with a powerful engine, advanced all-wheel-drive capabilities, and innovative safety features, it provides exceptional performance in both urban and off-road settings. With ample interior space for equipment and personnel, the Falcon Police Interceptor Utility is designed to meet the diverse needs of modern police forces.",
         codes: {
             left1: "13617182197",
             left2: "N/A",
@@ -201,12 +201,12 @@ const carPackages = [
         }
     },
     {
-        id: 21,
+        id: 11,
         title: "California Highway Patrol Prancer",
         category: "suv",
-        update: "Updated",
+        grade: "A",
         image: "imgs/chp/charger15.png",
-        description: "[!] All Bullhorn Prancer (Dodge Charger) Pursuit liveries are technically compatible with every version of the vehicle, including the 2011, 2015, and 2020 models. However, you may encounter some glitches due to slight differences between the models.\n\n The Bullhorn Prancer Pursuit is a high-powered law enforcement vehicle engineered for speed, agility, and reliability. Featuring a robust engine, advanced performance technology, and a durable design, it excels in high-speed pursuits and demanding conditions. With a sleek profile and modern safety features, the Bullhorn Prancer Pursuit is built to support officers in maintaining control and authority on the road.",
+        description: "[!] You need to change the vehicle color to black! Recommend: #000000\n\n [!] All Bullhorn Prancer (Dodge Charger) Pursuit liveries are technically compatible with every version of the vehicle, including the 2011, 2015, and 2020 models. However, you may encounter some glitches due to slight differences between the models.\n\n The Bullhorn Prancer Pursuit is a high-powered law enforcement vehicle engineered for speed, agility, and reliability. Featuring a robust engine, advanced performance technology, and a durable design, it excels in high-speed pursuits and demanding conditions. With a sleek profile and modern safety features, the Bullhorn Prancer Pursuit is built to support officers in maintaining control and authority on the road.",
         codes: {
             left1: "13608312556",
             left2: "N/A",
@@ -221,12 +221,12 @@ const carPackages = [
         }
     },
     {
-        id: 22,
+        id: 12,
         title: "California Highway Patrol Prancer",
         category: "sedan",
-        update: "Updated",
+        grade: "A",
         image: "imgs/chp/charger11.png",
-        description: "[!] All Bullhorn Prancer (Dodge Charger) Pursuit liveries are technically compatible with every version of the vehicle, including the 2011, 2015, and 2020 models. However, you may encounter some glitches due to slight differences between the models.\n\n The Bullhorn Prancer Pursuit is a high-powered law enforcement vehicle engineered for speed, agility, and reliability. Featuring a robust engine, advanced performance technology, and a durable design, it excels in high-speed pursuits and demanding conditions. With a sleek profile and modern safety features, the Bullhorn Prancer Pursuit is built to support officers in maintaining control and authority on the road.",
+        description: "[!] You need to change the vehicle color to black! Recommend: #000000\n\n [!] All Bullhorn Prancer (Dodge Charger) Pursuit liveries are technically compatible with every version of the vehicle, including the 2011, 2015, and 2020 models. However, you may encounter some glitches due to slight differences between the models.\n\n The Bullhorn Prancer Pursuit is a high-powered law enforcement vehicle engineered for speed, agility, and reliability. Featuring a robust engine, advanced performance technology, and a durable design, it excels in high-speed pursuits and demanding conditions. With a sleek profile and modern safety features, the Bullhorn Prancer Pursuit is built to support officers in maintaining control and authority on the road.",
         codes: {
             left1: "13601951654",
             left2: "N/A",
@@ -241,10 +241,30 @@ const carPackages = [
         }
     },
     {
-        id: 23,
+        id: 13,
+        title: "California Highway Patrol Eques",
+        category: "sedan",
+        grade: "A",
+        image: "imgs/chp/crownvic.png",
+        description: "[!] You need to change the vehicle color to black! Recommend: #000000\n\n The Falcon Crown Victoria Police Interceptor is a legendary law enforcement vehicle known for its reliability, durability, and commanding presence. Built on a sturdy body-on-frame design, it features a powerful V8 engine, rear-wheel drive, and enhanced suspension for pursuit and patrol duties. Renowned for its spacious interior and proven performance, the Falcon Crown Victoria Police Interceptor remains a symbol of dependable service in police fleets.",
+        codes: {
+            left1: "13617112928",
+            left2: "N/A",
+            right1: "127082180081275",
+            right2: "N/A",
+            top1: "106373948184815",
+            top2: "N/A",
+            back1: "13617060652",
+            back2: "N/A",
+            front1: "N/A",
+            front2: "N/A"
+        }
+    },
+    {
+        id: 14,
         title: "Alexandria Police Prancer",
         category: "sedan",
-        update: "Updated",
+        grade: "A",
         image: "imgs/alpd/charger11.png",
         description: "[!] All Bullhorn Prancer (Dodge Charger) Pursuit liveries are technically compatible with every version of the vehicle, including the 2011, 2015, and 2020 models. However, you may encounter some glitches due to slight differences between the models.\n\n The Bullhorn Prancer Pursuit is a high-powered law enforcement vehicle engineered for speed, agility, and reliability. Featuring a robust engine, advanced performance technology, and a durable design, it excels in high-speed pursuits and demanding conditions. With a sleek profile and modern safety features, the Bullhorn Prancer Pursuit is built to support officers in maintaining control and authority on the road.",
         codes: {
@@ -261,10 +281,10 @@ const carPackages = [
         }
     },
     {
-        id: 24,
+        id: 15,
         title: "Alexandria Police Eques",
         category: "sedan",
-        update: "Updated",
+        grade: "A",
         image: "imgs/alpd/charger11.png",
         description: "The Falcon Crown Victoria Police Interceptor is a legendary law enforcement vehicle known for its reliability, durability, and commanding presence. Built on a sturdy body-on-frame design, it features a powerful V8 engine, rear-wheel drive, and enhanced suspension for pursuit and patrol duties. Renowned for its spacious interior and proven performance, the Falcon Crown Victoria Police Interceptor remains a symbol of dependable service in police fleets.",
         codes: {
@@ -281,10 +301,10 @@ const carPackages = [
         }
     },
     {
-        id: 25,
+        id: 16,
         title: "Alexandria Police Sedan",
         category: "sedan",
-        update: "Updated",
+        grade: "A",
         image: "imgs/alpd/sedan17.png",
         description: "The Falcon Police Interceptor Sedan is a high-performance law enforcement vehicle designed for durability, speed, and safety. Built on a robust platform, it features a powerful engine, advanced suspension, and cutting-edge technology to meet the demanding needs of police work. With enhanced handling and pursuit capabilities, the Falcon Police Interceptor Sedan is engineered to excel in urban and highway environments.",
         codes: {
@@ -301,10 +321,10 @@ const carPackages = [
         }
     },
     {
-        id: 26,
+        id: 17,
         title: "Colorado Highway Patrol Prancer",
         category: "sedan",
-        update: "Updated",
+        grade: "A",
         image: "imgs/calorp/charger15hp.png",
         description: "[!] All Bullhorn Prancer (Dodge Charger) Pursuit liveries are technically compatible with every version of the vehicle, including the 2011, 2015, and 2020 models. However, you may encounter some glitches due to slight differences between the models.\n\n The Bullhorn Prancer Pursuit is a high-powered law enforcement vehicle engineered for speed, agility, and reliability. Featuring a robust engine, advanced performance technology, and a durable design, it excels in high-speed pursuits and demanding conditions. With a sleek profile and modern safety features, the Bullhorn Prancer Pursuit is built to support officers in maintaining control and authority on the road.",
         codes: {
@@ -321,10 +341,10 @@ const carPackages = [
         }
     },
     {
-        id: 27,
+        id: 18,
         title: "Colorado Springs Police Prancer",
         category: "sedan",
-        update: "Updated",
+        grade: "A",
         image: "imgs/calorp/charger15pd.png",
         description: "[!] All Bullhorn Prancer (Dodge Charger) Pursuit liveries are technically compatible with every version of the vehicle, including the 2011, 2015, and 2020 models. However, you may encounter some glitches due to slight differences between the models.\n\n The Bullhorn Prancer Pursuit is a high-powered law enforcement vehicle engineered for speed, agility, and reliability. Featuring a robust engine, advanced performance technology, and a durable design, it excels in high-speed pursuits and demanding conditions. With a sleek profile and modern safety features, the Bullhorn Prancer Pursuit is built to support officers in maintaining control and authority on the road.",
         codes: {
@@ -341,10 +361,10 @@ const carPackages = [
         }
     },
     {
-        id: 28,
+        id: 19,
         title: "Colorado Springs Police Prancer",
         category: "sedan",
-        update: "Updated",
+        grade: "A",
         image: "imgs/calorp/charger15pd2.png",
         description: "[!] All Bullhorn Prancer (Dodge Charger) Pursuit liveries are technically compatible with every version of the vehicle, including the 2011, 2015, and 2020 models. However, you may encounter some glitches due to slight differences between the models.\n\n The Bullhorn Prancer Pursuit is a high-powered law enforcement vehicle engineered for speed, agility, and reliability. Featuring a robust engine, advanced performance technology, and a durable design, it excels in high-speed pursuits and demanding conditions. With a sleek profile and modern safety features, the Bullhorn Prancer Pursuit is built to support officers in maintaining control and authority on the road.",
         codes: {
@@ -361,10 +381,10 @@ const carPackages = [
         }
     },
     {
-        id: 29,
+        id: 20,
         title: "Colorado State Patrol Prancer",
         category: "sedan",
-        update: "Updated",
+        grade: "A",
         image: "imgs/calorp/charger15sp.png",
         description: "[!] You need to change the vehicle color to any grey! Recommend: #8A8A8A\n\n [!] All Bullhorn Prancer (Dodge Charger) Pursuit liveries are technically compatible with every version of the vehicle, including the 2011, 2015, and 2020 models. However, you may encounter some glitches due to slight differences between the models.\n\n The Bullhorn Prancer Pursuit is a high-powered law enforcement vehicle engineered for speed, agility, and reliability. Featuring a robust engine, advanced performance technology, and a durable design, it excels in high-speed pursuits and demanding conditions. With a sleek profile and modern safety features, the Bullhorn Prancer Pursuit is built to support officers in maintaining control and authority on the road.",
         codes: {
@@ -381,10 +401,10 @@ const carPackages = [
         }
     },
     {
-        id: 30,
+        id: 21,
         title: "Colorado Douglas County Prancer",
         category: "sedan",
-        update: "Updated",
+        grade: "A",
         image: "imgs/ndrp/charger11.png",
         description: "[!] You need to change the vehicle color to any grey! Recommend: #8A8A8A\n\n [!] All Bullhorn Prancer (Dodge Charger) Pursuit liveries are technically compatible with every version of the vehicle, including the 2011, 2015, and 2020 models. However, you may encounter some glitches due to slight differences between the models.\n\n The Bullhorn Prancer Pursuit is a high-powered law enforcement vehicle engineered for speed, agility, and reliability. Featuring a robust engine, advanced performance technology, and a durable design, it excels in high-speed pursuits and demanding conditions. With a sleek profile and modern safety features, the Bullhorn Prancer Pursuit is built to support officers in maintaining control and authority on the road.",
         codes: {
@@ -401,10 +421,10 @@ const carPackages = [
         }
     },
     {
-        id: 31,
+        id: 22,
         title: "Colorado Douglas County Utility",
         category: "suv",
-        update: "Updated",
+        grade: "A",
         image: "imgs/ndrp/fpiu20.png",
         description: "[!] All Falcon (Ford) Police Interceptor Utility liveries are technically compatible with every version of the vehicle, including the 2013, 2019, and 2020 models. However, you may encounter some glitches due to slight differences between the models.\n\n The Falcon Police Interceptor Utility is a versatile and rugged law enforcement vehicle built to handle a variety of challenges. Equipped with a powerful engine, advanced all-wheel-drive capabilities, and innovative safety features, it provides exceptional performance in both urban and off-road settings. With ample interior space for equipment and personnel, the Falcon Police Interceptor Utility is designed to meet the diverse needs of modern police forces.",
         codes: {
@@ -421,10 +441,10 @@ const carPackages = [
         }
     },
     {
-        id: 32,
+        id: 23,
         title: "Virginia State Police Utility",
         category: "suv",
-        update: "Updated",
+        grade: "A",
         image: "imgs/vsp/fpiu2019.png",
         description: "[!] All Falcon (Ford) Police Interceptor Utility liveries are technically compatible with every version of the vehicle, including the 2013, 2019, and 2020 models. However, you may encounter some glitches due to slight differences between the models.\n\n The Falcon Police Interceptor Utility is a versatile and rugged law enforcement vehicle built to handle a variety of challenges. Equipped with a powerful engine, advanced all-wheel-drive capabilities, and innovative safety features, it provides exceptional performance in both urban and off-road settings. With ample interior space for equipment and personnel, the Falcon Police Interceptor Utility is designed to meet the diverse needs of modern police forces.",
         codes: {
@@ -441,10 +461,10 @@ const carPackages = [
         }
     },
     {
-        id: 33,
+        id: 24,
         title: "Virginia State Police Utility",
         category: "suv",
-        update: "Updated",
+        grade: "A",
         image: "imgs/vsp/fpiu2020.png",
         description: "[!] All Falcon (Ford) Police Interceptor Utility liveries are technically compatible with every version of the vehicle, including the 2013, 2019, and 2020 models. However, you may encounter some glitches due to slight differences between the models.\n\n The Falcon Police Interceptor Utility is a versatile and rugged law enforcement vehicle built to handle a variety of challenges. Equipped with a powerful engine, advanced all-wheel-drive capabilities, and innovative safety features, it provides exceptional performance in both urban and off-road settings. With ample interior space for equipment and personnel, the Falcon Police Interceptor Utility is designed to meet the diverse needs of modern police forces.",
         codes: {
@@ -461,10 +481,10 @@ const carPackages = [
         }
     },
     {
-        id: 34,
+        id: 25,
         title: "Virginia State Police X5",
         category: "suv",
-        update: "Updated",
+        grade: "A",
         image: "imgs/vsp/bmwx5.png",
         description: "The BKM Munich Police version is a versatile and high-performance law enforcement SUV designed for agility, power, and reliability. Equipped with a powerful engine, advanced all-wheel-drive system, and cutting-edge technology, it excels in both urban patrols and high-speed pursuits. With a spacious and well-equipped interior, the BKM Munich Police version ensures officers have the comfort and capability needed to handle any situation with confidence.",
         codes: {
@@ -481,10 +501,10 @@ const carPackages = [
         }
     },
     {
-        id: 35,
+        id: 26,
         title: "Virginia State Police Camion PPV",
         category: "suv",
-        update: "Updated",
+        grade: "A",
         image: "imgs/vsp/tahoe2008.png",
         description: "[!] All Chevlon Camion Police Pursuit Vehicle (Chevrolet Tahoe PPV) liveries are technically compatible with every version of the vehicle, including the 2008, 2018, and 2021 models. However, you may encounter some glitches due to slight differences between the models.\n\n The Chevlon Camion Police Pursuit Vehicle is a robust and versatile law enforcement SUV designed for high-performance operations. Equipped with a powerful engine, advanced all-wheel-drive capabilities, and a durable chassis, it delivers exceptional performance in both urban and rugged terrains. With a spacious interior for officers and equipment, the Chevlon Camion Police Pursuit Vehicle is built to meet the rigorous demands of modern policing.",
         codes: {
@@ -501,10 +521,10 @@ const carPackages = [
         }
     },
     {
-        id: 36,
+        id: 27,
         title: "Virginia State Police Sedan",
         category: "sedan",
-        update: "Updated",
+        grade: "A",
         image: "imgs/vsp/sedan17.png",
         description: "The Falcon Police Interceptor Sedan is a high-performance law enforcement vehicle designed for durability, speed, and safety. Built on a robust platform, it features a powerful engine, advanced suspension, and cutting-edge technology to meet the demanding needs of police work. With enhanced handling and pursuit capabilities, the Falcon Police Interceptor Sedan is engineered to excel in urban and highway environments.",
         codes: {
@@ -521,10 +541,10 @@ const carPackages = [
         }
     },
     {
-        id: 37,
+        id: 28,
         title: "Virginia State Police Eques",
         category: "sedan",
-        update: "Updated",
+        grade: "A",
         image: "imgs/vsp/crownvic03.png",
         description: "Optional back2: 13047389022\n\nThe Falcon Crown Victoria Police Interceptor is a legendary law enforcement vehicle known for its reliability, durability, and commanding presence. Built on a sturdy body-on-frame design, it features a powerful V8 engine, rear-wheel drive, and enhanced suspension for pursuit and patrol duties. Renowned for its spacious interior and proven performance, the Falcon Crown Victoria Police Interceptor remains a symbol of dependable service in police fleets.",
         codes: {
@@ -541,10 +561,10 @@ const carPackages = [
         }
     },
     {
-        id: 38,
+        id: 29,
         title: "Virginia State Police Prancer Pursuit",
         category: "sedan",
-        update: "Updated",
+        grade: "A",
         image: "imgs/vsp/charger2015.png",
         description: "[!] All Bullhorn Prancer (Dodge Charger) Pursuit liveries are technically compatible with every version of the vehicle, including the 2011, 2015, and 2020 models. However, you may encounter some glitches due to slight differences between the models.\n\n The Bullhorn Prancer Pursuit is a high-powered law enforcement vehicle engineered for speed, agility, and reliability. Featuring a robust engine, advanced performance technology, and a durable design, it excels in high-speed pursuits and demanding conditions. With a sleek profile and modern safety features, the Bullhorn Prancer Pursuit is built to support officers in maintaining control and authority on the road.",
         codes: {
@@ -561,10 +581,10 @@ const carPackages = [
         }
     },
     {
-        id: 39,
+        id: 30,
         title: "Virginia Loudoun County Camion PPV",
         category: "suv",
-        update: "Outdated",
+        grade: "A",
         image: "imgs/vsp/lctahoe08.png",
         description: "[!] All Chevlon Camion Police Pursuit Vehicle (Chevrolet Tahoe PPV) liveries are technically compatible with every version of the vehicle, including the 2008, 2018, and 2021 models. However, you may encounter some glitches due to slight differences between the models.\n\n The Chevlon Camion Police Pursuit Vehicle is a robust and versatile law enforcement SUV designed for high-performance operations. Equipped with a powerful engine, advanced all-wheel-drive capabilities, and a durable chassis, it delivers exceptional performance in both urban and rugged terrains. With a spacious interior for officers and equipment, the Chevlon Camion Police Pursuit Vehicle is built to meet the rigorous demands of modern policing.",
         codes: {
@@ -581,11 +601,11 @@ const carPackages = [
         }
     },
     {
-        id: 40,
+        id: 31,
         title: "Chicago Police Camion PPV",
         category: "suv",
-        update: "Updated",
-        image: "imgs/cpd/tahoe08.png",
+        grade: "A",
+        image: "imgs/random/cpdtahoe08.png",
         description: "[!] All Chevlon Camion Police Pursuit Vehicle (Chevrolet Tahoe PPV) liveries are technically compatible with every version of the vehicle, including the 2008, 2018, and 2021 models. However, you may encounter some glitches due to slight differences between the models.\n\n The Chevlon Camion Police Pursuit Vehicle is a robust and versatile law enforcement SUV designed for high-performance operations. Equipped with a powerful engine, advanced all-wheel-drive capabilities, and a durable chassis, it delivers exceptional performance in both urban and rugged terrains. With a spacious interior for officers and equipment, the Chevlon Camion Police Pursuit Vehicle is built to meet the rigorous demands of modern policing.",
         codes: {
             left1: "13240287786",
@@ -601,11 +621,31 @@ const carPackages = [
         }
     },
     {
-        id: 42,
+        id: 32,
+        title: "Chicago Police Eques",
+        category: "sedan",
+        grade: "A",
+        image: "imgs/random/cpdcrownvic.png",
+        description: "The Falcon Crown Victoria Police Interceptor is a legendary law enforcement vehicle known for its reliability, durability, and commanding presence. Built on a sturdy body-on-frame design, it features a powerful V8 engine, rear-wheel drive, and enhanced suspension for pursuit and patrol duties. Renowned for its spacious interior and proven performance, the Falcon Crown Victoria Police Interceptor remains a symbol of dependable service in police fleets.",
+        codes: {
+            left1: "",
+            left2: "N/A",
+            right1: "",
+            right2: "N/A",
+            top1: "",
+            top2: "N/A",
+            back1: "",
+            back2: "N/A",
+            front1: "",
+            front2: "N/A"
+        }
+    },
+    {
+        id: 33,
         title: "Florida Highway Patrol SFP Fury",
         category: "other",
-        update: "Updated",
-        image: "imgs/florida/sfp.png",
+        grade: "A",
+        image: "imgs/random/sfp.png",
         description: "[!] You need to change the vehicle color to any grey! Recommend: #3B3B3B\n\n The Bullhorn Determinator SFP Fury is a high-powered law enforcement vehicle built for speed, strength, and control. Featuring a robust V8 engine, reinforced suspension, and advanced pursuit technology, it excels in high-speed chases and tactical operations. With an aggressive design and modern safety enhancements, the Bullhorn Determinator SFP Fury delivers the power and reliability officers need to maintain authority on the road.",
         codes: {
             left1: "13744496805",
@@ -621,10 +661,10 @@ const carPackages = [
         }
     },
     {
-        id: 43,
-        title: "SWAT Truck",
-        category: "other",
-        update: "Updated",
+        id: 34,
+        title: "LAPD SWAT Truck",
+        category: "truck",
+        grade: "A",
         image: "imgs/chp/swat.png",
         description: "The SWAT Bearcat is a heavily armored tactical vehicle designed for high-risk law enforcement and military operations. Built on a rugged chassis, it features reinforced ballistic protection, run-flat tires, and advanced breaching capabilities. With its powerful engine and off-road capability, the SWAT Bearcat provides law enforcement teams with a secure and mobile platform for hostage rescues, riot control, and dangerous tactical missions.",
         codes: {
@@ -636,6 +676,146 @@ const carPackages = [
             top2: "13979608403",
             back1: "13979576815",
             back2: "13979587697",
+            front1: "N/A",
+            front2: "N/A"
+        }
+    },
+    {
+        id: 34,
+        title: "Bridgeport Police Utility",
+        category: "suv",
+        grade: "A",
+        image: "imgs/random/bpfpiu20.png",
+        description: "[!] All Falcon (Ford) Police Interceptor Utility liveries are technically compatible with every version of the vehicle, including the 2013, 2019, and 2020 models. However, you may encounter some glitches due to slight differences between the models.\n\n The Falcon Police Interceptor Utility is a versatile and rugged law enforcement vehicle built to handle a variety of challenges. Equipped with a powerful engine, advanced all-wheel-drive capabilities, and innovative safety features, it provides exceptional performance in both urban and off-road settings. With ample interior space for equipment and personnel, the Falcon Police Interceptor Utility is designed to meet the diverse needs of modern police forces.",
+        codes: {
+            left1: "13539118141",
+            left2: "N/A",
+            right1: "13539119911",
+            right2: "N/A",
+            top1: "13539121732",
+            top2: "N/A",
+            back1: "13539123821",
+            back2: "N/A",
+            front1: "13539133321",
+            front2: "N/A"
+        }
+    },
+    {
+        id: 35,
+        title: "Bridgeport Police Utility",
+        category: "suv",
+        grade: "A",
+        image: "imgs/random/bpfpiu20.png",
+        description: "[!] All Falcon (Ford) Police Interceptor Utility liveries are technically compatible with every version of the vehicle, including the 2013, 2019, and 2020 models. However, you may encounter some glitches due to slight differences between the models.\n\n The Falcon Police Interceptor Utility is a versatile and rugged law enforcement vehicle built to handle a variety of challenges. Equipped with a powerful engine, advanced all-wheel-drive capabilities, and innovative safety features, it provides exceptional performance in both urban and off-road settings. With ample interior space for equipment and personnel, the Falcon Police Interceptor Utility is designed to meet the diverse needs of modern police forces.",
+        codes: {
+            left1: "13539118141",
+            left2: "N/A",
+            right1: "13539119911",
+            right2: "N/A",
+            top1: "13539121732",
+            top2: "N/A",
+            back1: "13539123821",
+            back2: "N/A",
+            front1: "13539133321",
+            front2: "N/A"
+        }
+    },
+    {
+        id: 36,
+        title: "Lansing Police Utility",
+        category: "suv",
+        grade: "A",
+        image: "imgs/random/lpfpiu20.png",
+        description: "[!] You need to change the vehicle color to black! Recommend: #000000\n\n [!] All Falcon (Ford) Police Interceptor Utility liveries are technically compatible with every version of the vehicle, including the 2013, 2019, and 2020 models. However, you may encounter some glitches due to slight differences between the models.\n\n The Falcon Police Interceptor Utility is a versatile and rugged law enforcement vehicle built to handle a variety of challenges. Equipped with a powerful engine, advanced all-wheel-drive capabilities, and innovative safety features, it provides exceptional performance in both urban and off-road settings. With ample interior space for equipment and personnel, the Falcon Police Interceptor Utility is designed to meet the diverse needs of modern police forces.",
+        codes: {
+            left1: "12936703415",
+            left2: "N/A",
+            right1: "12936705069",
+            right2: "N/A",
+            top1: "N/A",
+            top2: "N/A",
+            back1: "12936690363",
+            back2: "N/A",
+            front1: "N/A",
+            front2: "N/A"
+        }
+    },
+    {
+        id: 37,
+        title: "Gulfford Sheriff's Peublo",
+        category: "suv",
+        grade: "A",
+        image: "imgs/random/lpfpiu20.png",
+        description: "[!] You need to change the vehicle color to black! Recommend: #000000\n\n [!] All Falcon (Ford) Police Interceptor Utility liveries are technically compatible with every version of the vehicle, including the 2013, 2019, and 2020 models. However, you may encounter some glitches due to slight differences between the models.\n\n The Bullhorn Pueblo Pursuit is a powerful and versatile law enforcement SUV designed for high-performance patrol and pursuit operations. Equipped with a potent engine, all-wheel-drive capability, and advanced suspension, it delivers exceptional handling and durability in both urban and off-road environments. With a spacious interior for officers and tactical equipment, the Bullhorn Pueblo Pursuit is built to meet the rigorous demands of modern policing.",
+        codes: {
+            left1: "12907185802",
+            left2: "N/A",
+            right1: "12907146323",
+            right2: "N/A",
+            top1: "N/A",
+            top2: "N/A",
+            back1: "12907206706",
+            back2: "N/A",
+            front1: "N/A",
+            front2: "N/A"
+        }
+    },
+    {
+        id: 38,
+        title: "Gulfford Sheriff's Stallion 350",
+        category: "other",
+        grade: "A",
+        image: "imgs/isp/mustang15.png",
+        description: "[!] You need to change the vehicle color to black! Recommend: #000000\n\n The Falcon Stallion 350 Police variant is a high-performance law enforcement vehicle built for speed, power, and precision. Equipped with a formidable engine, advanced suspension, and state-of-the-art technology, it excels in high-speed pursuits and rapid response situations. With its striking design and enhanced handling, the Falcon Stallion 350 Police variant offers unmatched agility, making it a top choice for officers in need of exceptional performance and control.",
+        codes: {
+            left1: "12907028569",
+            left2: "N/A",
+            right1: "12906998068",
+            right2: "N/A",
+            top1: "N/A",
+            top2: "N/A",
+            back1: "N/A",
+            back2: "N/A",
+            front1: "N/A",
+            front2: "N/A"
+        }
+    },
+    {
+        id: 39,
+        title: "NC Wildlife Police Utility",
+        category: "other",
+        grade: "A",
+        image: "imgs/random/unknown.png",
+        description: "[!] You need to change the vehicle color to grey! Recommend: #3b3b3b\n\n [!] All Falcon (Ford) Police Interceptor Utility liveries are technically compatible with every version of the vehicle, including the 2013, 2019, and 2020 models. However, you may encounter some glitches due to slight differences between the models.\n\n The Falcon Police Interceptor Utility is a versatile and rugged law enforcement vehicle built to handle a variety of challenges. Equipped with a powerful engine, advanced all-wheel-drive capabilities, and innovative safety features, it provides exceptional performance in both urban and off-road settings. With ample interior space for equipment and personnel, the Falcon Police Interceptor Utility is designed to meet the diverse needs of modern police forces.",
+        codes: {
+            left1: "12907797497",
+            left2: "N/A",
+            right1: "12907799202",
+            right2: "N/A",
+            top1: "N/A",
+            top2: "N/A",
+            back1: "12907829152",
+            back2: "N/A",
+            front1: "N/A",
+            front2: "N/A"
+        }
+    },
+    {
+        id: 40,
+        title: "NC Wildlife Police Advance SSV",
+        category: "other",
+        grade: "A",
+        image: "imgs/random/unknown.png",
+        description: "[!] You need to change the vehicle color to black! Recommend: #3b3b3b\n\n The Falcon Advance SSV is a rugged and powerful law enforcement truck designed for heavy-duty police and emergency response operations. Built on a high-strength chassis, it features a formidable engine, advanced towing capabilities, and all-terrain performance to handle the toughest environments. With a reinforced body and a spacious, adaptable interior, the Falcon Advance SSV is the ultimate specialty service vehicle for law enforcement agencies requiring strength, durability, and reliability.",
+        codes: {
+            left1: "12907589333",
+            left2: "N/A",
+            right1: "12907522810",
+            right2: "N/A",
+            top1: "N/A",
+            top2: "N/A",
+            back1: "12907741172",
+            back2: "N/A",
             front1: "N/A",
             front2: "N/A"
         }
@@ -693,7 +873,9 @@ function createPackageCard(package) {
     const card = packageTemplate.content.cloneNode(true);
     
     card.querySelector('.package-title').textContent = package.title;
-    card.querySelector('.package-update').textContent = `${package.update} `;
+    const gradeElement = card.querySelector('.package-update');
+    gradeElement.textContent = `Grade ${package.grade}`;
+    gradeElement.className = `package-update grade-${package.grade.toLowerCase()}`;
     card.querySelector('.package-image img').src = package.image;
     card.querySelector('.package-image img').alt = package.title;
 
@@ -763,7 +945,9 @@ function showPackageDetails(package) {
     
     // Update basic content
     modalOverlay.querySelector('.modal-title').textContent = package.title;
-    modalOverlay.querySelector('.modal-update').textContent = `${package.update} `;
+    const gradeElement = modalOverlay.querySelector('.modal-update');
+    gradeElement.textContent = `Grade ${package.grade}`;
+    gradeElement.className = `package-update grade-${package.grade.toLowerCase()}`;
     const descriptionElement = modalOverlay.querySelector('.modal-description');
     descriptionElement.textContent = package.description;
     descriptionElement.style.whiteSpace = 'pre-wrap';

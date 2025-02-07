@@ -114,13 +114,25 @@ h1 {
 }
 
 .package-update {
-    outline: 1px solid #ffffff42;
     border-radius: 5px;
     width: fit-content;
     padding: 5px;
     font-size: 14px;
     background-color: var(--card-background);
     color: var(--text-color);
+}
+
+/* Grade styles */
+.grade-a {
+    outline: 2px solid #27ae60;
+}
+
+.grade-b {
+    outline: 2px solid #f39c12;
+}
+
+.grade-c {
+    outline: 2px solid #e74c3c;
 }
 
 /* Grid Styles */

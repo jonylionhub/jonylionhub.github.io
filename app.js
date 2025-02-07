@@ -681,26 +681,6 @@ const carPackages = [
         }
     },
     {
-        id: 34,
-        title: "Bridgeport Police Utility",
-        category: "suv",
-        grade: "A",
-        image: "imgs/random/bpfpiu20.png",
-        description: "[!] All Falcon (Ford) Police Interceptor Utility liveries are technically compatible with every version of the vehicle, including the 2013, 2019, and 2020 models. However, you may encounter some glitches due to slight differences between the models.\n\n The Falcon Police Interceptor Utility is a versatile and rugged law enforcement vehicle built to handle a variety of challenges. Equipped with a powerful engine, advanced all-wheel-drive capabilities, and innovative safety features, it provides exceptional performance in both urban and off-road settings. With ample interior space for equipment and personnel, the Falcon Police Interceptor Utility is designed to meet the diverse needs of modern police forces.",
-        codes: {
-            left1: "13539118141",
-            left2: "N/A",
-            right1: "13539119911",
-            right2: "N/A",
-            top1: "13539121732",
-            top2: "N/A",
-            back1: "13539123821",
-            back2: "N/A",
-            front1: "13539133321",
-            front2: "N/A"
-        }
-    },
-    {
         id: 35,
         title: "Bridgeport Police Utility",
         category: "suv",
@@ -745,7 +725,7 @@ const carPackages = [
         title: "Gulfford Sheriff's Peublo",
         category: "suv",
         grade: "A",
-        image: "imgs/random/lpfpiu20.png",
+        image: "imgs/random/gfpeublo.png",
         description: "[!] You need to change the vehicle color to black! Recommend: #000000\n\n [!] All Falcon (Ford) Police Interceptor Utility liveries are technically compatible with every version of the vehicle, including the 2013, 2019, and 2020 models. However, you may encounter some glitches due to slight differences between the models.\n\n The Bullhorn Pueblo Pursuit is a powerful and versatile law enforcement SUV designed for high-performance patrol and pursuit operations. Equipped with a potent engine, all-wheel-drive capability, and advanced suspension, it delivers exceptional handling and durability in both urban and off-road environments. With a spacious interior for officers and tactical equipment, the Bullhorn Pueblo Pursuit is built to meet the rigorous demands of modern policing.",
         codes: {
             left1: "12907185802",
@@ -765,7 +745,7 @@ const carPackages = [
         title: "Gulfford Sheriff's Stallion 350",
         category: "other",
         grade: "A",
-        image: "imgs/isp/mustang15.png",
+        image: "imgs/random/gfstallion350.png",
         description: "[!] You need to change the vehicle color to black! Recommend: #000000\n\n The Falcon Stallion 350 Police variant is a high-performance law enforcement vehicle built for speed, power, and precision. Equipped with a formidable engine, advanced suspension, and state-of-the-art technology, it excels in high-speed pursuits and rapid response situations. With its striking design and enhanced handling, the Falcon Stallion 350 Police variant offers unmatched agility, making it a top choice for officers in need of exceptional performance and control.",
         codes: {
             left1: "12907028569",

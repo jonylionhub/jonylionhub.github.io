@@ -1311,12 +1311,14 @@ h1 {
 
 .hero-section {
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
 .hero-section h2 {
     font-size: 48px;
     margin-bottom: 20px;
+}
+.hero-section h2 span {
     color: var(--accent-color);
 }
 
@@ -1325,12 +1327,14 @@ h1 {
     margin-bottom: 40px;
     opacity: 0.8;
 }
-
+.hero-section p span {
+    color: var(--accent-color);
+    font-weight: 700;
+}
 .features-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-direction: column;
     gap: 30px;
-    margin-top: 40px;
 }
 
 .features-grid .feature {
@@ -1339,6 +1343,7 @@ h1 {
     border-radius: 18px;
     box-shadow: var(--card-shadow);
     text-align: center;
+    width: 100%;
 }
 
 .features-grid .feature i {
@@ -1358,9 +1363,10 @@ h1 {
 }
 
 .community-section {
-    display: flex;
-    justify-content: center;
-    margin-top: 60px;
+    height: fit-content;
+    width: fit-content;
+    position: sticky;
+    top: 20px;
 }
 
 .discord-widget {
@@ -1372,7 +1378,7 @@ h1 {
 }
 
 .discord-widget h3 {
-    color: #5865F2;
+    color: var(--accent-color);
     margin-bottom: 20px;
     font-size: 24px;
 }
@@ -1387,6 +1393,16 @@ h1 {
 }
 
 /* Responsive Design */
+@media (max-width: 1024px) {
+    .main-content-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .community-section {
+        position: static;
+    }
+}
+
 @media (max-width: 768px) {
     .nav-buttons {
         display: none;
@@ -1582,5 +1598,151 @@ h1 {
     
     .rotate-message.hidden {
         display: none;
+    }
+}
+
+/* Update features and community layout */
+.main-content-grid {
+    display: grid;
+    grid-template-columns: 1fr 350px;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.features-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.features-grid .feature {
+    background: var(--card-background);
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: var(--card-shadow);
+    text-align: center;
+    width: 100%;
+}
+
+.community-section {
+    height: fit-content;
+    position: sticky;
+    top: 20px;
+}
+
+/* Animation keyframes */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes scaleIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Apply animations to elements */
+.nav-logo {
+    animation: fadeInRight 0.6s ease forwards;
+}
+
+.nav-buttons {
+    animation: fadeInLeft 0.6s ease forwards;
+}
+
+.hero-section h2 {
+    opacity: 0;
+    animation: fadeInUp 0.8s ease forwards;
+    animation-delay: 0.2s;
+}
+
+.hero-section p {
+    opacity: 0;
+    animation: fadeInUp 0.8s ease forwards;
+    animation-delay: 0.4s;
+}
+
+.features-grid .feature {
+    opacity: 0;
+    animation: scaleIn 0.6s ease forwards;
+}
+
+.features-grid .feature:nth-child(1) {
+    animation-delay: 0.6s;
+}
+
+.features-grid .feature:nth-child(2) {
+    animation-delay: 0.8s;
+}
+
+.features-grid .feature:nth-child(3) {
+    animation-delay: 1s;
+}
+
+.community-section {
+    opacity: 0;
+    animation: fadeInLeft 0.8s ease forwards;
+    animation-delay: 1.2s;
+}
+
+/* Add hover animations */
+.feature {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--card-shadow), 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.feature i {
+    transition: transform 0.3s ease;
+}
+
+.feature:hover i {
+    transform: scale(1.1);
+}
+
+/* Reduce motion if user prefers */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation: none !important;
+        transition: none !important;
     }
 } 

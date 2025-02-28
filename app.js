@@ -285,7 +285,7 @@ const carPackages = [
         title: "Alexandria Police Eques",
         category: "sedan",
         grade: "A",
-        image: "imgs/alpd/charger11.png",
+        image: "imgs/alpd/crownvic.png",
         description: "The Falcon Crown Victoria Police Interceptor is a legendary law enforcement vehicle known for its reliability, durability, and commanding presence. Built on a sturdy body-on-frame design, it features a powerful V8 engine, rear-wheel drive, and enhanced suspension for pursuit and patrol duties. Renowned for its spacious interior and proven performance, the Falcon Crown Victoria Police Interceptor remains a symbol of dependable service in police fleets.",
         codes: {
             left1: "11701521265",
@@ -902,51 +902,65 @@ function initializeModal() {
     const modalOverlay = document.getElementById('modalOverlay');
     const closeButton = modalOverlay.querySelector('.close-modal');
 
-    closeButton.addEventListener('click', () => {
-        modalOverlay.classList.remove('active');
-    });
+    closeButton.addEventListener('click', closeModal);
 
     modalOverlay.addEventListener('click', (e) => {
         if (e.target === modalOverlay) {
-            modalOverlay.classList.remove('active');
+            closeModal();
         }
     });
 
     // Close on escape key
     document.addEventListener('keydown', (e) => {
         if (e.key === 'Escape' && modalOverlay.classList.contains('active')) {
-            modalOverlay.classList.remove('active');
+            closeModal();
         }
     });
 }
 
+function closeModal() {
+    const modalOverlay = document.getElementById('modalOverlay');
+    modalOverlay.classList.remove('active');
+    document.body.style.overflow = ''; // Restore scroll
+    clearModalContent(); // Clear the content when closing
+}
+
+function clearModalContent() {
+    const modalOverlay = document.getElementById('modalOverlay');
+    const modalTitle = modalOverlay.querySelector('.modal-title');
+    const modalUpdate = modalOverlay.querySelector('.modal-update');
+    const modalDescription = modalOverlay.querySelector('.modal-description');
+    const modalImage = modalOverlay.querySelector('.modal-image img');
+    const codesGrid = modalOverlay.querySelector('.codes-grid');
+
+    if (modalTitle) modalTitle.textContent = '';
+    if (modalUpdate) modalUpdate.textContent = '';
+    if (modalDescription) modalDescription.textContent = '';
+    if (modalImage) modalImage.src = '';
+    if (codesGrid) codesGrid.innerHTML = '';
+}
+
 function showPackageDetails(package) {
     const modalOverlay = document.getElementById('modalOverlay');
-    
-    // Update basic content
-    modalOverlay.querySelector('.modal-title').textContent = package.title;
+    const modalTitle = modalOverlay.querySelector('.modal-title');
     const gradeElement = modalOverlay.querySelector('.modal-update');
-    gradeElement.textContent = `Grade ${package.grade}`;
-    gradeElement.className = `package-update grade-${package.grade.toLowerCase()}`;
     const descriptionElement = modalOverlay.querySelector('.modal-description');
+    const img = modalOverlay.querySelector('.modal-image img');
+
+    if (!modalTitle || !gradeElement || !descriptionElement || !img) {
+        console.error('One or more modal elements are missing.');
+        return;
+    }
+
+    modalTitle.textContent = package.title;
+    gradeElement.textContent = `Grade: ${package.grade}`;
     descriptionElement.textContent = package.description;
-    descriptionElement.style.whiteSpace = 'pre-wrap';
-    
-    // Preload image before showing modal
-    const img = new Image();
-    img.onload = () => {
-        modalOverlay.querySelector('.modal-image img').src = package.image;
-        modalOverlay.querySelector('.modal-image img').alt = package.title;
-        
-        // Update codes
-        updateModalCodes(package, modalOverlay);
-        
-        // Show modal with animation
-        requestAnimationFrame(() => {
-            modalOverlay.classList.add('active');
-        });
-    };
     img.src = package.image;
+
+    console.log('Modal Title Element:', modalTitle);
+    console.log('Modal Grade Element:', gradeElement);
+    console.log('Modal Description Element:', descriptionElement);
+    console.log('Modal Image Element:', img);
 }
 
 // Separate function for updating modal codes
@@ -1032,7 +1046,10 @@ function initializeAnnouncement() {
 }
 
 // Initialize the application
-document.addEventListener('DOMContentLoaded', initializeGrid);
+document.addEventListener('DOMContentLoaded', () => {
+    initializeGrid();
+    initializeModal(); // Ensure this is called
+});
 
 // Add these functions at the end of app.js
 function showDonationModal() {
@@ -1055,4 +1072,28 @@ document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape' && document.getElementById('donationModal').classList.contains('active')) {
         closeDonationModal();
     }
-}); 
+});
+
+function viewLiveryDetails(event) {
+    const packageId = event.currentTarget.getAttribute('data-id');
+    const livery = carPackages.find(pkg => pkg.id === parseInt(packageId));
+
+    if (livery) {
+        const modalTitle = document.querySelector('.modal-title');
+        const modalGrade = document.querySelector('.modal-update');
+        const modalDescription = document.querySelector('.modal-description');
+        const modalImage = document.querySelector('.modal-image img');
+
+        if (modalTitle) modalTitle.textContent = livery.title;
+        if (modalGrade) modalGrade.textContent = `Grade: ${livery.grade}`;
+        if (modalDescription) modalDescription.textContent = livery.description;
+        if (modalImage) modalImage.src = livery.image;
+
+        // Show the modal
+        const modalOverlay = document.getElementById('modalOverlay');
+        modalOverlay.classList.add('active');
+        document.body.style.overflow = 'hidden'; // Prevent background scrolling
+    } else {
+        console.error('Livery not found for ID:', packageId);
+    }
+} 

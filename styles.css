@@ -924,7 +924,7 @@
     text-decoration: none;
     text-transform: uppercase;
     outline: 0;
-    border: 1px solid var(--light-grey);
+    border: 1.5px solid var(--light-grey);
     border-radius: 15px;
     padding-right: 15px;    
   }

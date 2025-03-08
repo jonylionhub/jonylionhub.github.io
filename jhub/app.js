@@ -1,4 +1,3 @@
-// Sample data for car packages
 const carPackages = [
     {
         id: 1,
@@ -846,6 +845,7 @@ function renderPackages(packages) {
     }
 
     itemupdateSpan.textContent = filteredPackages.length;
+    setupEventListeners(); // Ensure this is called after rendering
 }
 
 // Create a package card from template
@@ -895,6 +895,18 @@ function setupEventListeners() {
     // Search functionality
     searchInput.addEventListener('input', handleSearch);
     clearSearch.addEventListener('click', clearSearchField);
+
+    // Setup event listeners for package cards
+    const packageCards = document.querySelectorAll('.package-card');
+    packageCards.forEach(card => {
+        card.addEventListener('click', (e) => {
+            const packageId = card.getAttribute('data-id'); // Ensure each card has a data-id attribute
+            const package = carPackages.find(pkg => pkg.id === parseInt(packageId));
+            if (package) {
+                showPackageDetails(package);
+            }
+        });
+    });
 }
 
 // Modal handling
@@ -957,10 +969,12 @@ function showPackageDetails(package) {
     descriptionElement.textContent = package.description;
     img.src = package.image;
 
-    console.log('Modal Title Element:', modalTitle);
-    console.log('Modal Grade Element:', gradeElement);
-    console.log('Modal Description Element:', descriptionElement);
-    console.log('Modal Image Element:', img);
+    // Call to update the modal codes
+    updateModalCodes(package, modalOverlay);
+
+    // Show the modal
+    modalOverlay.classList.add('active');
+    document.body.style.overflow = 'hidden'; // Prevent background scrolling
 }
 
 // Separate function for updating modal codes
